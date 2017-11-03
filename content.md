@@ -19,7 +19,7 @@
 <!-- .slide: data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
 
 <!-- NOTES -->
-- Demander combien ont essayé VR.
+- Demander combien ont déjà essayé VR.
 - La réalité virtuelle est une plateforme technologique qui vous transporte dans des environnements 3D réalistes, interactifs et immersifs
 - C'est la prochaine plate-forme, va changer notre façon de travailler + jouer + communiquer numériquement, visage de la société
 
