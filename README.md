@@ -6,7 +6,7 @@ Official starter slides for giving talks and presentations about A-Frame.
 
 ## Installation
 
-1. [Download the repository (.ZIP)](http://github.com/aframevr/aframe-presentation-kit/zipball/master) (>200MB)
+1. [Download the repository (.ZIP)](http://github.com/mariot/aframe-presentation-kit/zipball/master) (>200MB)
 2. Start the local server (`npm run start`)
 3. Open `http://localhost:8080` in your browser
 
