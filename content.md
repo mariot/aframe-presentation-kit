@@ -2,9 +2,9 @@
 
 <div class="talk-title">
   <h1>A-Frame</h1>
-  <p>A web framework for building VR experiences</p>
+  <p>Un framework web framework pour la création d'experiences VR</p>
   <p class="talk-info">
-    @andgokevin | Mozilla VR | **aframe.io**
+    @mariot_tsitoara | Mozilla Tech Speakers | **aframe.io**
   </p>
 </div>
 
@@ -14,7 +14,7 @@
 
 ------
 
-# Virtual Reality
+# Realité Virtuel
 
 <!-- .slide: data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
 
@@ -45,7 +45,7 @@
 
 ---
 
-## Friction of VR Ecosystems
+## Friction des Ecosystemes VR
 
 <div class="captioned-image-row">
   <div>
@@ -54,11 +54,11 @@
   </div>
   <div>
     <img data-src="media/img/downloads-installs.png">
-    <i>Installs</i>
+    <i>Installations</i>
   </div>
   <div>
     <img data-src="media/img/closed-door.png">
-    <i>Closed</i>
+    <i>Fermés</i>
   </div>
 </div>
 
@@ -77,29 +77,29 @@ An open virtual reality platform with the advantages of **the Web**
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/web-is-open.png">
-    <i>Open</i>
+    <i>Ouvert</i>
   </div>
   <div>
     <img data-src="media/img/web-is-connected.png">
-    <i>Connected</i>
+    <i>Connecté</i>
   </div>
   <div>
     <img data-src="media/img/web-is-instant.png">
-    <i>Instant</i>
+    <i>Instantanné</i>
   </div>
 </div>
 
 <!-- NOTES -->
 WebVR is...virtual reality in the browser, powered by the Internet
 
-Open:
-- Anyone can publish
+Ouvert:
+- Tout le monde peut publier
 - Open source culture with open standards
 
-Connected:
-- Traverse worlds
+Connecté:
+- Traverser des mondes
 
-Instant:
+Instantannés:
 - Click a link on Twitter or Weibo, immediate VR experiences
 - No installs
 - Imagine for long tail experiences: shopping & personal spaces
