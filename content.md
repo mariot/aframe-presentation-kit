@@ -9,8 +9,8 @@
 </div>
 
 <!-- NOTES -->
-- Onboard web developers into the 3D and VR world with easy-to-use tools
-- Prototype WebVR experiences faster
+- Intégrer les développeurs Web dans le monde 3D et VR avec des outils faciles à utiliser
+- Expériences WebVR plus rapides
 
 ------
 
@@ -19,9 +19,9 @@
 <!-- .slide: data-background-video="media/video/virtualreality.mp4" data-background-video-loop="true" data-background-video-muted="true" data-state="state--bg-dark" -->
 
 <!-- NOTES -->
-- Ask how many have tried VR.
-- Virtual reality is a technology platform that transports you to realistic, interactive, immersive 3D environments
-- It's the next platform, will change how we work + play + communicate digitally, face of society
+- Demander combien ont essayé VR.
+- La réalité virtuelle est une plateforme technologique qui vous transporte dans des environnements 3D réalistes, interactifs et immersifs
+- C'est la prochaine plate-forme, va changer notre façon de travailler + jouer + communiquer numériquement, visage de la société
 
 ---
 
@@ -38,10 +38,10 @@
 </div>
 
 <!-- NOTES -->
-- Backed by the largest corporations in the world, everyone wants in
-- Range from cheap to expensive, tethered and untethered, controllers, tracking
-- HTC Vive with Steam currently offers the most compelling experiences, but never know
-- See a lot of different devices, systems, platforms competing against each other...
+- Soutenu par les plus grandes entreprises du monde, tout le monde veut
+- Gamme de bon marché à cher, attaché et non connecté, contrôleurs, suivi
+- HTC Vive avec Steam offre actuellement les expériences les plus convaincantes, mais ne sait jamais
+- Voir beaucoup de différents appareils, systèmes, plates-formes en concurrence les uns contre les autres ...
 
 ---
 
@@ -63,16 +63,16 @@
 </div>
 
 <!-- NOTES -->
-- App stores and corporations control distribution: can take down or block content
-- Downloads / installs are a barrier to consumption: small business pages
-- Closed ecosystem: proprietary engines, steep learning curves, siloed experiences, fragmentation
-- We want VR to be successful, so we want a platform without these points of friction. The answer is WebVR...
+- Les magasins d'applications et les entreprises contrôlent la distribution: peuvent supprimer ou bloquer du contenu
+- Les téléchargements / installations sont un obstacle à la consommation: petites pages professionnelles
+- Écosystème fermé: moteurs propriétaires, courbes d'apprentissage abruptes, expériences en silos, fragmentation
+- Nous voulons que la VR réussisse, nous voulons donc une plate-forme sans ces points de friction. La réponse est WebVR ...
 
 ------
 
 # WebVR
 
-An open virtual reality platform with the advantages of **the Web**
+Une plate-forme de réalité virtuelle ouverte avec les avantages du ** Web **
 
 <div class="captioned-image-row">
   <div>
@@ -90,25 +90,25 @@ An open virtual reality platform with the advantages of **the Web**
 </div>
 
 <!-- NOTES -->
-WebVR is...virtual reality in the browser, powered by the Internet
+WebVR est ... la réalité virtuelle dans le navigateur, alimenté par Internet
 
 Ouvert:
 - Tout le monde peut publier
-- Open source culture with open standards
+- Culture Open Source avec des standards ouverts
 
 Connecté:
 - Traverser des mondes
 
 Instantannés:
-- Click a link on Twitter or Weibo, immediate VR experiences
-- No installs
-- Imagine for long tail experiences: shopping & personal spaces
-- Great for long tail bite-sized experiences
+- Cliquez sur un lien sur Twitter ou Weibo, expériences VR immédiates
+- Aucune installation
+- Imaginez pour les expériences de longue queue: shopping et espaces personnels
+- Idéal pour les expériences de bouchée de longue queue
 
 Transition:
-- Web has advantages that make it the best platform for the people
-- Need to act to make it reality, can't wait for VR to bake and crystallize
-- Get involved
+- Le Web a des avantages qui en font la meilleure plateforme pour les gens
+- Besoin d'agir pour en faire une réalité, ne peut pas attendre que le VR soit cuit et cristallisé
+- Être impliqué
 
 ---
 
