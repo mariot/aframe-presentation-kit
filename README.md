@@ -1,93 +1,88 @@
 # aframe-presentation-kit
 
-Official starter slides for giving talks and presentations about A-Frame.
+Diapositives de démarrage officielles pour donner des conférences et des présentations sur A-Frame.
 
-[VIEW SLIDES](https://aframe.io/aframe-presentation-kit/#/)
+[VIEW SLIDES](https://mariot.github.io/aframe-presentation-kit/#/)
 
 ## Installation
 
-1. [Download the repository (.ZIP)](http://github.com/mariot/aframe-presentation-kit/zipball/master) (>200MB)
-2. Start the local server (`npm run start`)
-3. Open `http://localhost:8080` in your browser
+1. [Télécharger le dépot (.ZIP)] (http://github.com/mariot/aframe-presentation-kit/zipball/master) (> 200MB)
+2. Démarrez le serveur local (`npm run start`)
+3. Ouvrez `http://localhost:8080` dans votre navigateur
 
-## Table of Contents
-
+## Table des matières
 - Introduction
-- Virtual Reality
-  - Hardware
-  - Friction of VR Ecosystems
+- Réalité virtuelle
+   - Matériel
+   - Friction des écosystèmes VR
 - WebVR
-  - Advantages
-  - API
-  - Browsers
-  - Metaverse
-  - Barrier to Entry
+   - Avantages
+   - API
+   - Navigateurs
+   - Métaverse
+   - Barrière à l'entrée
 - A-Frame
-  - Introduction
-  - Hello World
-  - Demo
-  - Works With Everything
-- Entity-Component-System
-  - Concept
-  - Composing an Entity
-  - Registry
-  - Inspector
-- Community
-  - Examples
-  - Numbers
+   - Introduction
+   - Hello World
+   - Démo
+   - Fonctionne avec tout
+- Entité-Composant-Système
+   - Concept
+   - Composer une entité
+   - Registre
+   - Inspecteur
+- Communauté
+   - Exemples
+   - Nombres
 
-## Modifying Design
+## Modifier le Design
 
-The kit uses [reveal.js](https://github.com/hakimel/reveal.js/), an HTML
-presentation framework. If you wish to customize, read their documentation to
-see how to configure and style the slide deck.
+Le kit utilise [reveal.js] (https://github.com/hakimel/reveal.js/), un
+framework HTML de présentation. Si vous souhaitez personnaliser, lisez
+leur documentation pour voir comment configurer et mettre en forme
+le jeu de diapositives.
 
-For styling, the kit theme is based on the white theme found in the reveal.js
-repository. This has been copied to `src/main.css` which you can replace or
-modify.
+Pour le style, le thème du kit est basé sur le thème blanc trouvé dans le reveal.js
+dépôt. Ceci a été copié dans `src/main.css` que vous pouvez remplacer ou
+modifier.
 
-## Modifying Content
+## Modifier le Contenu
 
-Modify the **content.md** file to edit content. Slides are written in Markdown
-and separated by six hyphens `------`. You can also add vertical slides by
-separating with three hyphens `---`. The slides are grouped, using vertical
-slides to drill down or build on general points. You can add speaker notes
-by putting content under `<!-- NOTES -->` on each slide.
+Modifiez le fichier **content.md** pour modifier le contenu.
+Les diapositives sont écrites en Markdown et séparé par six traits d'union "------".
+Vous pouvez également ajouter des diapositives verticales séparé par
+trois traits d'union `---`. Les diapositives sont regroupées, en utilisant des
+diapositives verticales pour forer ou construire sur des points généraux.
+Vous pouvez ajouter des notes de conférence
+en plaçant le contenu sous `<! - NOTES ->` sur chaque diapositive.
 
-Tailor the content to your audience. Filter out slides depending on the answers
-to these questions (as well as the allotted length of your talk). For example:
+Adaptez le contenu à votre public. Filtrer les diapositives en fonction des réponses
+à ces questions (ainsi que la durée de votre exposé). Par exemple:
 
-- **Is your audience familiar with virtual reality?** - If so, you might want to skip or trim the *Virtual Reality* section.
-- **Is your audience interested in underlying code (i.e., JavaScript, A-Frame components, three.js)?** - If not, then trim the *Entity-Component-System* section.
+- **Votre public est-il familier avec la réalité virtuelle?** - Si oui, vous voudrez peut-être sauter ou réduire la section *Réalité Virtuelle*.
+- **Votre audience s'intéresse-t-elle au code sous-jacent (c.-à-d. JavaScript, composants A-Frame, three.js)?** - Sinon, rognez la section *Entity-Component-System*.
 
-### Adding A-Frame Scenes
+### Ajouter des scènes A-Frame
 
-A-Frame scenes are embedded right within the slides so you can demo without
-having to navigate away. The kit will recognize `<div
-data-aframe-scene="scenes/yourscene.html"></div>` and load in the A-Frame
-scene.
 
-## Deployment
+Les scènes A-Frame sont intégrées directement dans les diapositives, ce qui vous permet de faire une démonstration sans
+devoir s'éloigner. Le kit reconnaîtra `<div data-aframe-scene="scenes/yourscene.html"> </div>`et se chargera dans la scène A-Frame.
 
-In your GitHub repository settings page under **GitHub Pages** and *Source*,
-select `master branch`. Then simply push to your GitHub repo, and then your
-slides will be live at `https://yourusername.github.io/aframe-presentation-kit`
-or whatever you named the repository. [Read more about GitHub
-Pages](https://github.com/blog/2228-simpler-github-pages-publishing).
+## Déploiement
 
-## Presenting
+Dans la page des paramètres de votre dépot GitHub sous **Pages GitHub** et *Source*,
+sélectionnez "branche master". Ensuite, appuyez simplement sur votre dépôt GitHub, puis votre
+les diapositives seront en direct sur `https://votrenom.github.io/aframe-presentation-kit`
+ou tout ce que vous avez nommé le dépot. [En savoir plus sur les Pages GitHub] (https://github.com/blog/2228-simpler-github-pages-publishing).
 
-Serve the slides locally from your computer for better network performance.
+## En présentant
+Servir les diapositives localement à partir de votre ordinateur pour une meilleure performance du réseau.
 
-Press the `f` key on your keyboard to go full screen. Press the `s` key on your
-keyboard to open up the **Speakers Notes** window. Press the `<esc>` or `o` key
-on your keyboard to see a zoomed out overview of the slides.
+Appuyez sur la touche `f` de votre clavier pour passer en plein écran. Appuyez sur la touche `s` de votre
+clavier pour ouvrir la fenêtre **Speakers Notes**. Appuyez sur la touche `<esc>` ou `o` de votre clavier pour voir une vue agrandie des diapositives.
 
-There are slides with embedded A-Frame scenes. Play with these scenes live from
-right within the slide. Click and drag to look around. You may enter full
-screen, or if you have a headset connected, enter VR.
+Il y a des diapositives avec des scènes A-Frame incorporées. Jouez avec ces scènes en direct depuis la diapositive. Cliquez et faites glisser pour regarder autour. Vous pouvez entrer en plein écran, ou si vous avez un casque connecté, entrer en VR.
 
-Open up a scene in the A-Frame Inspector by pressing `<ctrl> + <alt> + i` on
-your keyboard. This will open up an embedded A-Frame scene in a visual tool.
+Ouvrez une scène dans l'inspecteur A-Frame en appuyant sur `<ctrl>+<alt>+i` sur votre clavier. Cela ouvrira une scène A-Frame intégrée dans un outil visuel.
 
-Check out this [public speaking guide](http://speaking.io/) and good luck!
+Jetez un coup d'oeil à ce [guide pour parler en public] (http://speaking.io/) et bonne chance!
