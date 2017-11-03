@@ -2,11 +2,11 @@
 
 Diapositives de démarrage officielles pour donner des conférences et des présentations sur A-Frame.
 
-[VIEW SLIDES](https://mariot.github.io/aframe-presentation-kit/#/)
+[VOIR DIAPOSITIVES](https://mariot.github.io/aframe-presentation-kit/#/)
 
 ## Installation
 
-1. [Télécharger le dépot (.ZIP)] (http://github.com/mariot/aframe-presentation-kit/zipball/master) (> 200MB)
+1. [Télécharger le dépot (.ZIP)](http://github.com/mariot/aframe-presentation-kit/zipball/master) (> 200MB)
 2. Démarrez le serveur local (`npm run start`)
 3. Ouvrez `http://localhost:8080` dans votre navigateur
 
@@ -37,7 +37,7 @@ Diapositives de démarrage officielles pour donner des conférences et des prés
 
 ## Modifier le Design
 
-Le kit utilise [reveal.js] (https://github.com/hakimel/reveal.js/), un
+Le kit utilise [reveal.js](https://github.com/hakimel/reveal.js/), un
 framework HTML de présentation. Si vous souhaitez personnaliser, lisez
 leur documentation pour voir comment configurer et mettre en forme
 le jeu de diapositives.
@@ -73,7 +73,7 @@ devoir s'éloigner. Le kit reconnaîtra `<div data-aframe-scene="scenes/yourscen
 Dans la page des paramètres de votre dépot GitHub sous **Pages GitHub** et *Source*,
 sélectionnez "branche master". Ensuite, appuyez simplement sur votre dépôt GitHub, puis votre
 les diapositives seront en direct sur `https://votrenom.github.io/aframe-presentation-kit`
-ou tout ce que vous avez nommé le dépot. [En savoir plus sur les Pages GitHub] (https://github.com/blog/2228-simpler-github-pages-publishing).
+ou tout ce que vous avez nommé le dépot. [En savoir plus sur les Pages GitHub](https://github.com/blog/2228-simpler-github-pages-publishing).
 
 ## En présentant
 Servir les diapositives localement à partir de votre ordinateur pour une meilleure performance du réseau.
@@ -85,4 +85,4 @@ Il y a des diapositives avec des scènes A-Frame incorporées. Jouez avec ces sc
 
 Ouvrez une scène dans l'inspecteur A-Frame en appuyant sur `<ctrl>+<alt>+i` sur votre clavier. Cela ouvrira une scène A-Frame intégrée dans un outil visuel.
 
-Jetez un coup d'oeil à ce [guide pour parler en public] (http://speaking.io/) et bonne chance!
+Jetez un coup d'oeil à ce [guide pour parler en public](http://speaking.io/) et bonne chance!
