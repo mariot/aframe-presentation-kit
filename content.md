@@ -2,7 +2,7 @@
 
 <div class="talk-title">
   <h1>A-Frame</h1>
-  <p>Un framework web framework pour la création d'experiences VR</p>
+  <p>Un framework web pour construire des expériences de réalité virtuelle</p>
   <p class="talk-info">
     @mariot_tsitoara | Mozilla Tech Speakers | **aframe.io**
   </p>
@@ -72,7 +72,7 @@
 
 # WebVR
 
-Une plate-forme de réalité virtuelle ouverte avec les avantages du ** Web **
+Une plate-forme de réalité virtuelle ouverte avec les avantages du **Web**
 
 <div class="captioned-image-row">
   <div>
@@ -114,22 +114,21 @@ Transition:
 
 <img class="stretch" data-src="media/img/webvr.png">
 
-Browser APIs that enable WebGL rendering to headsets and access to VR
-sensors
+API de navigateur qui permettent le rendu WebGL sur les casques d'écoute et l'accès aux capteurs VR
 
 https://w3c.github.io/webvr/
 
 <!-- NOTES -->
 API:
-- Optimized rendering path to headsets
-- Access position and rotation (pose) data
+- Chemin de rendu optimisé pour les casques
+- Position d'accès et rotation (pose) des données
 
-History:
-- Initial WebVR API by Mozilla
-- Working W3C community group
-- Mozilla, Google, Samsung, Microsoft, community currently iterating WebVR 1.0 API
+Histoire:
+- API WebVR initiale par Mozilla
+- Groupe de travail communautaire W3C
+- Mozilla, Google, Samsung, Microsoft, communauté en cours d'itération API WebVR 1.0
 
-Not just a specification, it's implemented...
+Pas seulement une spécification, c'est implémenté ...
 
 ---
 
@@ -170,10 +169,10 @@ https://webvr.rocks
 </div>
 
 <!-- NOTES -->
-- Firefox + Chrome WebVR 1.0 hits release channels by early 2017
-- Currently behind Nightly, custom builds, and flags
-- Mobile Polyfill: use device motion / orientation sensors to polyfill on smartphones
-- With all the browsers behind it...
+- Firefox + Chrome WebVR 1.0 hits canaux de sortie d'ici début 2017
+- Actuellement derrière Nightly, les constructions personnalisées et les drapeaux
+- Polyfill mobile: utilisez des capteurs de mouvement / d'orientation pour polyfiler sur les smartphones
+- Avec tous les navigateurs derrière ...
 
 ---
 
@@ -182,40 +181,40 @@ https://webvr.rocks
 <!-- .slide: data-background="media/img/metaverse.jpg" -->
 
 <!-- NOTES -->
-- Shared persistent collective virtual spaces
-- Alternate digital reality that the world may live, work, play
-- Must be decentralized/open/connected, the Web is best platform to fully realize
-- Where do we begin?
-- three.js abstracts WebGL, 3D, and WebVR, but could still make it more accessible
+- Espaces virtuels collectifs persistants partagés
+- Alterner la réalité numérique que le monde peut vivre, travailler, jouer
+- Doit être décentralisé / ouvert / connecté, le Web est la meilleure plateforme pour réaliser pleinement
+- Où commençons-nous?
+- three.js résume WebGL, 3D et WebVR, mais pourrait encore le rendre plus accessible
 
 ---
 
-Too hard to create WebVR experiences...
+Trop difficile de créer des expériences WebVR ...
 
 ---
 
 <!-- .slide: data-background-video="media/video/boilerplate.mp4" data-state="state--bg-dark" -->
 
 <div class="slide__boilerplate">
-  <p>Import WebVR polyfill</p>
-  <p>Set up camera</p>
-  <p>Set up lights</p>
-  <p>Initialize scene</p>
-  <p>Declare and pass canvas</p>
-  <p>Listen to window resize</p>
-  <p>Install VREffect</p>
-  <p>Instantiate renderer</p>
-  <p>Create render loop</p>
-  <p>Preload assets</p>
-  <p>Figure out responsiveness</p>
-  <p>Deal with metatags and mobile</p>
+  <p>Importer le polyfill WebVR</p>
+  <p>Configurer l'appareil photo</p>
+  <p>Configurer les lumières</p>
+  <p>Initialiser la scène</p>
+  <p>Déclarer et passer la toile</p>
+  <p>Écouter le redimensionnement de la fenêtre</p>
+  <p>Installez VREffect</p>
+  <p>Instancier le rendu</p>
+  <p>Créer une boucle de rendu</p>
+  <p>Précharger des éléments</p>
+  <p>Déterminer la réactivité</p>
+  <p>Traitez les méta-tags et les mobiles</p>
 </div>
 
 <!-- NOTES -->
-- It's still too difficult to create WebVR experiences
-- Huge obstacle if doing small prototypes and experiments
-- Boilerplate needs updating with new versions of WebVR, three.js, and browser quirks
-- Encapsulate all of that into one line...
+- Il est encore trop difficile de créer des expériences WebVR
+- Enorme obstacle pour faire de petits prototypes et des expériences
+- Boilerplate doivent être mis à jour avec les nouvelles versions de WebVR, three.js et les caprices du navigateur
+- Encapsuler tout cela en une seule ligne ...
 
 ------
 
@@ -223,14 +222,14 @@ Too hard to create WebVR experiences...
 
 <!-- .slide: data-background="media/img/aframe-rendered-full.png" -->
 
-A web framework for building virtual reality experiences
+Un framework web pour construire des expériences de réalité virtuelle
 
 <!-- NOTES -->
-- Launched last December
-- Why:
-  - Easy for web developers to create VR content, without graphics knowledge
-  - Prototype and experiment WebVR and VR UX faster
-  - Vehicle to kickstart WebVR ecosystem
+- Lancé en décembre dernier
+- Pourquoi:
+   - Facile pour les développeurs Web de créer du contenu VR, sans connaissances graphiques
+   - Prototyper et expérimenter WebVR et VR UX plus rapidement
+   - Un véhicule pour relancer l'écosystème WebVR
 
 ---
 
@@ -253,12 +252,12 @@ A web framework for building virtual reality experiences
 <!-- .element: class="stretch" -->
 
 <!-- NOTES -->
-- Just HTML
-- Drop a script tag, no build steps
-- Using Custom HTML Elements
-- One line of HTML `<a-scene>` handles
-  - canvas, camera, renderer, lights, controls, render loop, WebVR polyfill, VREffect
-- Put stuff inside our scene...
+- Juste du HTML
+- Déposer une balise de script, pas de build
+- Utilisation d'éléments HTML personnalisés
+- Une ligne de HTML `<a-scene>` s'occupe de
+   - toile, caméra, moteur de rendu, lumières, contrôles, boucle de rendu, polyfill WebVR, VREffect
+- Mettre des choses à l'intérieur de notre scène ...
 
 ---
 
@@ -281,10 +280,10 @@ A web framework for building virtual reality experiences
 <!-- .element: class="stretch" -->
 
 <!-- NOTES -->
-- Basic 3D primitives with Custom Elements
-- Readable: HTML arguably most accessible language in computing
-- Encapsulated: copy-and-paste HTML anywhere else and still work, no state or variables
-- Quickly look at a live example...
+- Primitives 3D de base avec des éléments personnalisés
+- Lisible: HTML sans doute le langage le plus accessible en informatique
+- Encapsulé: copier-coller HTML ailleurs et encore travailler, pas d'état ou de variables
+- Regardez rapidement un exemple en direct ...
 
 ---
 
@@ -297,10 +296,10 @@ A web framework for building virtual reality experiences
 <div class="stretch" data-aframe-scene="scenes/80s.html"></div>
 
 <!-- NOTES -->
-- A-Frame scene by Ada Rose Edwards running from inside my HTML slides
-- Works on desktop, Android, iOS, Samsung Gear VR, Oculus Rift, HTC Vive
-- Could open up the DOM Inspector to change values live
-- Since it's just HTML...
+- Une scène A-Frame par Ada Rose Edwards en cours d'exécution à partir de l'intérieur de mes diapositives HTML
+- Fonctionne sur ordinateur de bureau, Android, iOS, Samsung Gear VR, Oculus Rift, HTC Vive
+- Pourrait ouvrir l'inspecteur DOM pour changer les valeurs en direct
+- Puisque c'est juste du HTML ...
 
 ---
 
@@ -337,10 +336,10 @@ A web framework for building virtual reality experiences
 
 <!-- NOTES -->
 
-- Based on HTML, compatible with all existing libraries/frameworks
-- Good reason to have HTML as an intermediary layer between WebGL/three.js
-- All tools were on top of the notion of HTML
-- Under the hood, A-Frame is an extensible, declarative framework for three.js...
+- Basé sur HTML, compatible avec toutes les bibliothèques / frameworks existants
+- Bonne raison d'avoir du HTML en tant que couche intermédiaire entre WebGL / three.js
+- Tous les outils étaient au-dessus de la notion de HTML
+- Sous le capot, A-Frame est un framework déclaratif et extensible pour three.js ...
 
 ------
 
@@ -349,12 +348,11 @@ A web framework for building virtual reality experiences
 <!-- .slide: data-background="media/img/minecraft-blocks.png" -->
 
 <!-- NOTES -->
-- Is an entity-component framework
-- Popular in game development, used by Unity
-- All objects in scene are **entities** that inherently empty objects. Plug in
-  **components** to attach appearance / behavior / functionality
-- 2D web where every element was fixed
-- 3D/VR is different, objects of infinite types and complexities, need an easy way to build up different kinds of objects
+- Est un cadre d'entité-composant
+- Populaire dans le développement de jeux, utilisé par Unity
+- Tous les objets dans la scène sont des **entités** qui, par nature, vident des objets. Branchez les **composants** pour attacher l'apparence / le comportement / la fonctionnalité
+- Web 2D où chaque élément a été réparé
+- 3D / VR est différent, les objets de types et de complexités infinis, ont besoin d'un moyen facile de construire différents types d'objets
 
 ---
 
@@ -368,9 +366,9 @@ A web framework for building virtual reality experiences
 <!-- .element: class="stretch" -->
 
 <!-- NOTES -->
-- Start with an `<a-entity>`
-- By itself, has no appearance, behavior, functionality
-- Plug in components to add appearance, behavior, functionality
+- Commencer avec un <a-entity> `
+- En soi, n'a pas d'apparence, le comportement, la fonctionnalité
+- Branchez des composants pour ajouter de l'apparence, du comportement, de la fonctionnalité
 
 ---
 
@@ -386,9 +384,9 @@ A web framework for building virtual reality experiences
 <!-- .element: class="stretch" -->
 
 <!-- NOTES -->
-- Syntax similar to CSS styles
-- Component names as HTML attributes
-- Component properties and values as HTML attribute value
+- Syntaxe similaire aux styles CSS
+- Noms de composants en tant qu'attributs HTML
+- Propriétés et valeurs des composants en tant que valeur d'attribut HTML
 
 ---
 
@@ -456,21 +454,21 @@ A web framework for building virtual reality experiences
 <!-- .slide: data-background="media/img/standard-components.png" data-background-size="contain" -->
 
 <!-- NOTES -->
-- These are some components that ship with A-Frame
-- A-Frame is fully extensible at its core so...
+- Voici quelques composants livrés avec A-Frame
+- A-Frame est entièrement extensible à sa base donc ...
 
 ---
 
 <!-- .slide: data-background="media/img/community-components.png" data-background-size="contain" -->
 
 <!-- NOTES -->
-- Community has filled the ecosystem with tons of components
-- Components can do whatever they want, have full access to three.js and Web APIs
-- The component ecosystem the lifeblood of A-Frame
-- Physics, leap motion, particle systems, audio visualizations, oceans
-- Drop these components as script tags and use them straight from HTML
-- Advanced developers empowering other developers
-- Working on collecting these components...
+- La communauté a rempli l'écosystème avec des tonnes de composants
+- Les composants peuvent faire ce qu'ils veulent, avoir un accès complet à three.js et API Web
+- L'écosystème des composants est la pierre angulaire de A-Frame
+- Physique, mouvement de saut, systèmes de particules, visualisations audio, océans
+- Déposez ces composants en tant que balises de script et utilisez-les directement à partir du HTML
+- Des développeurs avancés habilitant d'autres développeurs
+- Travailler sur la collecte de ces composants ...
 
 ---
 
@@ -478,16 +476,16 @@ A web framework for building virtual reality experiences
 
 <!-- .slide: data-background-color="#333" -->
 
-Curated collection of A-Frame components.
+Collection organisée de composants A-Frame.
 
 <a class="stretch" href="https://aframe.io/aframe-registry">
   <video loop data-src="media/video/registrypreview.mp4" data-autoplay></video>
 </a>
 
 <!-- NOTES -->
-- Collecting them into the A-Frame registry
-- Like a store of components that we make sure work well
-- People can browse and search for components or install them....
+- Collecte dans le registre A-Frame
+- Comme un magasin de composants que nous nous assurons de bien marcher
+- Les gens peuvent parcourir et rechercher des composants ou les installer ....
 
 ---
 
@@ -495,7 +493,7 @@ Curated collection of A-Frame components.
 
 <!-- .slide: data-background-color="#333" -->
 
-Curated collection of A-Frame components.
+Collection organisée de composants A-Frame.
 
 <video loop data-src="media/video/leaphands.mp4" data-autoplay></video>
 
@@ -505,7 +503,7 @@ Curated collection of A-Frame components.
 
 <!-- .slide: data-background="media/img/inspector.png" data-state="state--bg-dark" -->
 
-Visual tool for A-Frame. Just `<ctrl>+<alt>+i`.
+Outil visuel pour A-Frame. Juste `<ctrl>+<alt>+i`.
 
 <div class="stretch" data-aframe-scene="scenes/80s.html"></div>
 
@@ -620,20 +618,20 @@ iStaging
 <div class="captioned-image-row">
   <div>
     <img data-src="media/img/github.png">
-    <i>180+ contributors 6000+ Stargazers</i>
+    <i>180+ contributeurs 6000+ Stargazers</i>
   </div>
   <div>
     <img data-src="media/img/slack.png">
-    <i>4000+ members on Slack</i>
+    <i>Plus de 4000 membres sur Slack</i>
   </div>
   <div>
     <img data-src="media/img/scene-collage-circle.png">
-    <i>100s of featured projects</i>
+    <i>100s de projets en vedette</i>
   </div>
 </div>
 
 <!-- NOTES -->
-- Open source and inclusive project
-- Most work done on GitHub
-- Active community on Slack to share projects, interact, hang out, seek help
-- Featured projects on the `awesome-aframe` repository and *A Week of A-Frame* blog
+- Projet open source et inclusif
+- La plupart du travail effectué sur GitHub
+- Communauté active sur Slack pour partager des projets, interagir, sortir, demander de l'aide
+- Projets en vedette sur le référentiel `awesome-aframe` et sur le blog *A Week of A-Frame*
