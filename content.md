@@ -358,7 +358,7 @@ Un framework web pour construire des expériences de réalité virtuelle
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="slide-in none" -->
 
-## Composing an Entity
+## Composer un Entité
 
 ```html
 <a-entity>
@@ -372,7 +372,7 @@ Un framework web pour construire des expériences de réalité virtuelle
 
 ---
 
-## Composing an Entity
+## Composer un Entité
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -390,7 +390,7 @@ Un framework web pour construire des expériences de réalité virtuelle
 
 ---
 
-## Composing an Entity
+## Composer un Entité
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -404,7 +404,7 @@ Un framework web pour construire des expériences de réalité virtuelle
 
 ---
 
-## Composing an Entity
+## Composer un Entité
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -420,7 +420,7 @@ Un framework web pour construire des expériences de réalité virtuelle
 
 ---
 
-## Composing an Entity
+## Composer un Entité
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -435,7 +435,7 @@ Un framework web pour construire des expériences de réalité virtuelle
 
 ---
 
-## Composing an Entity
+## Composer un Entité
 
 <!-- .slide: data-background="media/img/minecraft-blocks.png" data-transition="none" -->
 
@@ -472,7 +472,7 @@ Un framework web pour construire des expériences de réalité virtuelle
 
 ---
 
-# Registry
+# Registre
 
 <!-- .slide: data-background-color="#333" -->
 
@@ -489,7 +489,7 @@ Collection organisée de composants A-Frame.
 
 ---
 
-# Registry
+# Registre
 
 <!-- .slide: data-background-color="#333" -->
 
@@ -499,7 +499,7 @@ Collection organisée de composants A-Frame.
 
 ---
 
-## Inspector
+## Inspecteur
 
 <!-- .slide: data-background="media/img/inspector.png" data-state="state--bg-dark" -->
 
@@ -511,7 +511,7 @@ Outil visuel pour A-Frame. Juste `<ctrl>+<alt>+i`.
 
 <!-- .slide: data-background="media/img/header.png" -->
 
-# Community
+# Communauté
 
 https://aframe.io/blog/
 
