@@ -4,7 +4,7 @@
   <h1>A-Frame</h1>
   <p>Un framework web pour construire des expériences de réalité virtuelle</p>
   <p class="talk-info">
-    @mozilla | Mozilla Tech Speakers | **aframe.io**
+    @mariot_tsitoara | Mozilla Tech Speakers | **aframe.io**
   </p>
 </div>
 
